@@ -1,4 +1,4 @@
-#HTML Template 
+# HTML Template 
 
 ## Task Overview
 This project is an HTML template that dynamically switches views based on user interaction. The template starts by displaying the **Initial View**, and when the user clicks the **"I don’t need Hosting"** link, it transitions to the **Feedback View**.
