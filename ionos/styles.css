@@ -1,0 +1,53 @@
+.responsive-box {
+    width: 350px;
+  }
+
+  @media (max-width: 768px) {
+    .responsive-box {
+      width: 80%; 
+      height: auto; 
+    }
+  }
+body {
+    background: #f9f6f6 !important;
+    font-family: "roboto", serif !important;
+  }
+  .card-body{
+    border: white 2px solid;
+    border-radius: 25px;
+  }
+  .card {
+    border: none !important;
+  }
+ .list-group-item {
+    border: none !important;
+ }
+ .fa-circle-check{
+    margin-right: 4px;
+    color: #00a0f4;
+ }
+ .btn1
+ {
+    border-radius: 20px !important;
+    width: 80%;
+    font-weight: 500 !important;
+ }
+ .btn2{
+    border: none;
+    color: #00a0f4;
+    background: none;
+ }
+ .btn1:hover
+ {
+    background-color: black !important;
+    color: white !important;
+ }
+ .hidden{
+    display: none;
+ }
+ .feedbackbtn{
+    color: #00a0f4;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: medium;
+ }
